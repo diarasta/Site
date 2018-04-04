@@ -1,0 +1,55 @@
+body{
+	
+	background: rgb(84,208,221);
+
+
+}
+
+#titre{
+	background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+}
+.tab{
+	font-size: 30px;
+}
+.tab1{
+	font-size: 30px;
+	border:2px solid black;
+}
+
+textarea {
+	width: 40%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.form_demo{
+
+}
+.form_demo input{
+	display: block;
+}
+.valider{
+	font-size: 40px;
+
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#footer p {
+	font-size: 20px;
+	background-color: blue;
+}

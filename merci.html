@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+                       <meta charset="utf-8">
+                      <meta name="viewport" content="width=device-width, initial-scale=1">
+                                      <title>E-boutique</title>
+                      <meta name="description" content="">
+                      <meta name="author" content="">
+                            <link rel="stylesheet" type="text/css"  href="css/styles.css">
+     </head>
+             <body >
+
+         <div> <h1 align="center"> E-boutique vous remercie de votre achat !!!</h1></div>
+
+
+            <div>
+              <script>
+
+  
+function clickCounter() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+        } else {
+            localStorage.clickcount = 1;
+        }
+        document.getElementById("result").innerHTML = "Vous avez acheter " + localStorage.clickcount + " fois. dans E-boutique";
+    } else {
+        document.getElementById("result").innerHTML = "Votre navigateur est incompatible...";
+    }
+}
+</script>
+<h3>Cliquez ici pour voir le nombre de fois que vous avez acheter dans notre boutique.</h3>
+<h3><button onclick="clickCounter()" type="button">Cliquez-ici</button></h3>
+<div id="result"></div>
+
+         </div>  
+
+
+             </body>
+             <footer id="footer">
+                    <div>
+                         <p align="center">Copyright &copy;BASSE et DIAMANKA 2018 Simplon.AUF.DAKAR</p>
+                    </div>
+            </footer>
+  </html>
