@@ -75,7 +75,45 @@ dl:hover dd{
     border-radius: 4px;
     text-align: center;
 }
+.com{
+	color: white;
+}
+.prix{
+	background-color: #FF0000;
+    color: white;
+    padding: 5px 5px;
+    margin: 4px 0;
+    border: none;
+    border-radius: 4px;
+ 
+
+}
+.paye{
+		background-color: #FF0000;
+    color: white;
+    padding: 1px 1px;
+    margin: 2px 0;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+
+
+    
+   
+}
+.commande{
+	background-color: #4CAF50;
+    color: white;
+    padding: 1px 1px;
+    margin: 2px 0;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+
+
+}
 #footer p {
 	font-size: 20px;
 	background-color: blue;
+	color: white;
 }
